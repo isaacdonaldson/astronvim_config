@@ -32,6 +32,13 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    
+    ["<esc><esc>"] = { "<cmd>:noh<cr>", desc = "Remove highlighting" },
+    
+    -- TODO: Get these to work
+    -- ["n"] = { "nzz", desc = "Get next search result to the center of the screen" },
+    -- ["N"] = { "Nzz", desc = "Get previous search result to the center of the screen" },
+    ["<leader>gl"] = { "<cmd>GitBlameToggle<cr>", desc = "Toggle Git Blame on/off" },
   },
   t = {
     -- setting a mapping to false will disable it
