@@ -51,6 +51,6 @@ return {
   { import = "astrocommunity.pack.zig" },
 
   -- Markdown and Latex
-  { import = "astrocommunity.markdown-and-latex.peek-nvim"},
+  { import = "astrocommunity.markdown-and-latex.glow-nvim"},
 
 }
