@@ -28,6 +28,7 @@ return {
     end,
   },
   { import = "astrocommunity.git.diffview-nvim"},
+  { import = "astrocommunity.git.neogit"},
 
   -- Language Pack
   { import = "astrocommunity.pack.bash" },
