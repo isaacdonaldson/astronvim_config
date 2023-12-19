@@ -5,7 +5,8 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
 
-
+  -- Bars and Lines
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   
   -- Colorscheme
   { import = "astrocommunity.colorscheme.catppuccin" },
@@ -17,6 +18,7 @@ return {
   -- Editing Support
   { import = "astrocommunity.editing-support.hypersonic-nvim"},
   { import = "astrocommunity.editing-support.vim-move"},
+  { import = "astrocommunity.editing-support.comment-box-nvim"},
 
   -- Git
   { import = "astrocommunity.git.git-blame-nvim" },
