@@ -20,10 +20,17 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
   -- colorscheme = "catppuccin",
-  -- CURRENT -- colorscheme = "monokai-pro",
   -- colorscheme = "gruvbox",
-  colorscheme = "monokai-pro",
+  -- colorscheme = "monokai-pro",
+  -- colorscheme = "catppuccin-latte",
 
+  -- DARK
+  -- colorscheme = "monokai-pro",
+
+  -- LIGHT
+  colorscheme = "solarized",
+  
+   
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
