@@ -6,14 +6,16 @@ return {
 
 
   -- Bars and Lines
-  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim", enabled = false },
   
   -- Colorscheme
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
 
   -- Completion
-  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
+  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = true },
 
   -- Editing Support
   { import = "astrocommunity.editing-support.hypersonic-nvim"},
