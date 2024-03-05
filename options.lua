@@ -10,6 +10,13 @@ return {
     tabstop = 4,
     shiftwidth = 4,
     softtabstop = 4,
+    expandtab = true,
+    clipboard = "unnamedplus",
+    scrolloff = 999,
+    virtualedit = "block",
+    inccommand = "split",
+    ignorecase = true,
+
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
